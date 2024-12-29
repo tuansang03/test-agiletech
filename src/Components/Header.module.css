@@ -1,0 +1,37 @@
+.contai {
+  position: relative;
+  width: 1120px;
+  height: 685.71px;
+}
+
+.wrapper {
+  width: auto;
+  height: 59.63px;
+  margin-top: 48px;
+}
+
+.header {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.col {
+  display: flex;
+  flex: 0 0%;
+}
+
+.col > button:nth-child(1) {
+  margin-right: 14px;
+}
+
+.logo {
+  width: 48.7px;
+  height: 34.78px;
+}
+
+@media (max-width: 993px) {
+  .contai {
+    width: auto;
+    height: auto;
+  }
+}

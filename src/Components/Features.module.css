@@ -1,0 +1,48 @@
+.container {
+  width: 1120px;
+  margin: auto;
+}
+
+.title {
+  margin-top: 164px;
+  color: #212353;
+  height: 51.21px;
+  font-family: Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.description {
+  width: 575.12px;
+  height: 57.12px;
+  color: #4b5d68;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28.8px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin: auto;
+  margin-top: 49.24px;
+  margin-bottom: 68.94px;
+}
+
+@media (max-width: 993px) {
+  .container {
+    width: auto;
+  }
+
+  .title {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .description {
+    width: 350.12px;
+  }
+}

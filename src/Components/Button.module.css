@@ -1,0 +1,37 @@
+.button {
+  display: block;
+  border-radius: 50px;
+  color: white;
+  background: #9c69e2;
+  border: none;
+}
+
+.medium {
+  width: 208.7px;
+  height: 59.63px;
+}
+
+.small {
+  width: 100%;
+  height: 53px;
+}
+
+.text {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25.6px;
+  letter-spacing: 0.005em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+@media (max-width: 993px) {
+  .button {
+    margin: auto;
+  }
+  .medium {
+    width: 151.7px;
+    height: 60px;
+  }
+}

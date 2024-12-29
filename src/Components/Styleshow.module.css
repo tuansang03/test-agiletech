@@ -1,0 +1,132 @@
+.slidesWrapper {
+  width: 931.66px;
+  height: 350.59px;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+.wrapper {
+  width: 100%;
+  height: calc(100% - 20px);
+  background-color: white;
+  box-shadow: 0px 20px 0px 0px #4a34674d;
+  border-radius: 20px;
+  margin: auto;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  position: absolute;
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.wrapper.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.wrapper.hide {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.content {
+  width: 729.44px;
+  height: 220.39px;
+  padding: 0 40px;
+}
+
+.contentRight {
+  width: 556.11px;
+  height: 200.36px;
+}
+
+.name {
+  font-family: monospace;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 28.8px;
+  letter-spacing: 0.005em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.email {
+  font-family: sans-serif;
+  color: #9c69e2;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22.4px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.description {
+  margin-top: 20px;
+  width: 382px;
+  color: #4b5d68;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.control {
+  position: absolute;
+  bottom: 74px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.button {
+  width: 9px;
+  height: 9px;
+  border: none;
+  margin: 0 2px;
+  border-radius: 50%;
+  background-color: white;
+}
+.butonshow {
+  background-color: hsla(324, 82%, 66%, 1);
+}
+
+@media (max-width: 1200px) {
+  .slidesWrapper {
+    width: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .slidesWrapper {
+    width: auto;
+  }
+
+  .control {
+    bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contentRight {
+    width: 100%;
+    text-align: center;
+  }
+
+  .description {
+    text-align: center;
+    padding: 0 20px;
+  }
+}

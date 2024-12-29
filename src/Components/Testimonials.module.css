@@ -1,0 +1,44 @@
+.wrapper {
+  width: 1120px;
+  height: 710.27px;
+  border-radius: 50px;
+  background-color: #9c69e2;
+  margin: auto;
+  position: relative;
+  margin-top: 120px;
+  margin-bottom: 88px;
+  padding: 109.19px 93.17px 66px;
+}
+
+.title {
+  width: 405.72px;
+  height: 52.09px;
+  color: #ffffff;
+  font-family: Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 88px;
+}
+
+@media (max-width: 1200px) {
+  .wrapper {
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .wrapper {
+    height: 100%;
+    padding: 30.19px 42.17px 66px;
+  }
+
+  .title {
+    margin-bottom: 30px;
+  }
+}
